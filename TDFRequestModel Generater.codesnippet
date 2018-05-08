@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@TDFRequestModel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>TDFRequestModel *requestModel = [[TDFRequestModel alloc] init];
+
+requestModel.requestType = &lt;#RequestType#&gt;;
+requestModel.signType = &lt;#Type#&gt;;
+requestModel.serverRoot = &lt;#server root#&gt;;
+
+requestModel.serviceName =  &lt;#service name#&gt;;
+requestModel.apiVersion = &lt;#api version#&gt;;
+requestModel.actionPath = &lt;#action path#&gt;;
+
+requestModel.parameters = &lt;#parameters#&gt;;
+
+    
+    NSURLSessionDataTask *dataTask = [[TDFHTTPClient sharedInstance] sendRequestWithRequestModel:requestModel
+                                                                                        progress:nil
+                                                                                         success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject){
+                                                                                             &lt;#code#&gt;
+                                                                                         }
+                                                                                         failure:^(NSURLSessionDataTask * _Nonnull task, NSError *error){
+                                                                                             &lt;#code#&gt;
+                                                                                         }];
+    return dataTask;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6CAAEC46-FE28-42B8-A6B3-63B54FDE6946</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TDFRequestModel Generater</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
