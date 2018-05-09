@@ -3,22 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@strong</string>
+	<string>@TDFFooterExport</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@strongify(self);</string>
+	<string> [[TDFFooter exportFooterWithSvgShow] attachAction:^{
+        @strongify(self);
+        [self footerExportButtonAction:nil];
+    }]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>81CD8099-502C-40C5-8CB9-DD22DE3155FF</string>
+	<string>D61DB606-5BFD-467F-B5B9-20E533F81A56</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strongify</string>
+	<string>TDFFooterExport</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

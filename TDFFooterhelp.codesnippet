@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@TDFFooterhelp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[[TDFFooter helpFooterWithSvgShow] attachAction:^{
+        UIViewController *helpController = [[TDFMediator sharedInstance] TDFMediator_supplyHelpFilesWithKey:&lt;#helpDocPath#&gt;];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:helpController];
+        [self.navigationController presentViewController:nav animated:YES completion:nil];
+    }]</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1F6CC372-DED2-4AC3-BF88-EBA8F09B1FA3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TDFFooterHelp</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
