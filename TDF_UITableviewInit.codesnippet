@@ -20,7 +20,7 @@ tableView.backgroundColor=[UIColor colorWithHex:&lt;#0xFFFFFF#&gt;];
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tableviewinit</string>
+	<string>TDF_tableviewinit</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

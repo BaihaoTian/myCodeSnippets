@@ -28,7 +28,7 @@ attributedLabel.attributedText = [[NSAttributedString alloc] initWithString:text
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>attributedLabel</string>
+	<string>TDF_attributedLabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
