@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@log</string>
+	<string>@headerdoc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#Log#&gt;");</string>
+	<string>/**
+ &lt;#description#&gt;
+ @param &lt;#parameter#&gt;
+ @returns &lt;#retval#&gt;
+ @exception &lt;#throws#&gt;
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D6493D67-636E-4749-A4B6-F8709F400BAE</string>
+	<string>0A716188-D622-4919-8E44-687A79938994</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Header Doc style block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TDF_NSlog</string>
+	<string>Comment Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

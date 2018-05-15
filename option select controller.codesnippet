@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>__typeof(self) __weak wslef = self;
+    TDFOptionSelectController *osc = [TDFOptionSelectController optionSelectControllerWithOptions:&lt;#(NSArray *)#&gt;
+                                                                                  selectedIndexes:&lt;#(NSArray *)#&gt;
+                                                                                      cancelBlock:nil
+                                                                                       completion:^(NSArray *selectedIndexes) {
+                                                                                           
+                                                                                       
+                                                                                       }];
+    [self presentViewController:osc animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E2A17CF3-8216-44D6-947F-261957ACA192</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>OptionSelectController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
